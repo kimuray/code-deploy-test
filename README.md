@@ -1,3 +1,4 @@
 # README
 
 CodeDeployが自動deployできているかのチェック
+CodeDeployが自動deployできているかのチェックver2
