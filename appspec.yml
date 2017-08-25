@@ -2,4 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /var/texts
+    destination: /var/texts/application
+hooks:
+  AfterInstall:
+    - location: /var/texts/scripts/run_ruby.sh
