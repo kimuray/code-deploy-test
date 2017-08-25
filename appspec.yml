@@ -5,4 +5,4 @@ files:
     destination: /var/texts/application
 hooks:
   AfterInstall:
-    - location: /var/texts/scripts/run_ruby.sh
+    - location: deploy_scripts/run_ruby.sh
