@@ -4,5 +4,5 @@ files:
   - source: /
     destination: /var/texts/application
 hooks:
-  AfterInstall:
+  ValidateService:
     - location: deploy_scripts/run_ruby.sh
