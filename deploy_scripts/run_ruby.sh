@@ -1,1 +1,1 @@
-ruby /var/www/scripts/deploy_exe.rb
+ruby deploy_exe.rb
